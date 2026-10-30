@@ -1,0 +1,28 @@
+agent-voice
+Copyright (c) 2026 Cleiton Loiola. The code is licensed under the MIT License (see LICENSE).
+
+agent-voice calls, but does not include, the following software and models.
+
+Software
+- OmniVoice, https://github.com/k2-fsa/OmniVoice, Apache License 2.0.
+- Hugging Face transformers, Apache License 2.0.
+
+Models, downloaded from Hugging Face on first use and governed by their own licenses
+- k2-fsa/OmniVoice pre-trained weights: CC-BY-NC (non-commercial), per the model card,
+  "due to constraints from its training data (e.g., Emilia)". Audio generated with
+  agent-voice is therefore for non-commercial use only.
+- The OmniVoice audio tokenizer (audio_tokenizer/ in the same repository) is Boson Higgs
+  Audio 2, under the Boson Higgs Audio 2 Community License, which incorporates the Meta
+  Llama 3 Community License. Its required notices:
+
+  Built with Higgs Materials licensed from Boson AI USA, Inc., Copyright Boson AI USA, Inc.,
+  All Rights Reserved and Meta Llama 3 licensed under the Meta Llama 3 Community License,
+  Copyright Meta Platforms, Inc., All Rights Reserved.
+
+  Meta Llama 3 is licensed under the Meta Llama 3 Community License, Copyright (c) Meta
+  Platforms, Inc. All Rights Reserved.
+  Boson Higgs Audio 2 is licensed under the Boson Community License, Copyright (c) Boson AI
+  USA, Inc. All Rights Reserved.
+
+  The full license text ships with the weights, at audio_tokenizer/LICENSE.
+- openai/whisper-large-v3-turbo: MIT License, per its model card.
